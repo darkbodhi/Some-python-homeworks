@@ -1,0 +1,15 @@
+print('Enter the first number:\n')
+x = int(input())  # type: int
+print('enter the second number:\n')
+s = int(input())  # type: int
+z = int(x + s)
+q = int(x - s)
+v = int(x * s)
+k = int(x / s)
+p = int(x % s)
+print('The result is:\n')
+print(x, '+', s, '=', z)
+print(x, '-', s, '=', q)
+print(x, '*', s, '=', v)
+print(x, '/', s, '=', k)
+print(x, '%', s, '=', p)
